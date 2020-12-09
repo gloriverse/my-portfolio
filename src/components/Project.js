@@ -46,7 +46,7 @@ function Project() {
                     href={project.link}
                     alt={project.title}
                     target="_blank"
-                    rel="noopener noreferrer"
+                    rel="noreferrer noopener"
                   >
                     {" "}
                     <img
@@ -76,7 +76,7 @@ function Project() {
                   <div>
                     <a
                       href={project.link}
-                      rel="noopene noreferer"
+                      rel="noopener noreferrer"
                       target="_blank"
                       className="text-blue-500 font-bold hover:underline hover:text-green-400 text-xl"
                     >
